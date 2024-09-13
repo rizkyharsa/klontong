@@ -114,8 +114,6 @@ class _AddProductFormState extends State<AddProductForm> {
                   final product = Product(
                       name: nameController.text,
                       description: descriptionController.text,
-                      // categoryId: categoryId,
-                      // categoryName: categoryName,
                       sku: getRandomString(5),
                       weight: int.parse(weightController.text),
                       width: int.parse(widthController.text),
